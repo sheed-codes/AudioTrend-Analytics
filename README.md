@@ -74,3 +74,69 @@ These signals simulate real-world trend indicators such as:
 
 A custom trend score is generated:
 
+This approximates how discovery or recommendation systems identify rising content without needing proprietary engagement metrics.
+
+---
+
+### 4. Visualization
+
+Auto-generated charts:
+
+- Top tracks by trend score
+- Trend score vs recency analysis
+- Query presence impact on trend score
+
+Charts are automatically saved to `/outputs`.
+
+---
+
+### 5. BI Export
+
+Clean dataset exported for dashboarding:
+
+
+Designed for integration with Looker Studio or other BI tools.
+
+---
+
+## Example Outputs
+
+- outputs/top_tracks_trend_score.png
+- outputs/trend_vs_recency.png
+- outputs/query_hits_vs_trend.png
+
+---
+
+## Key Skills Demonstrated
+
+- API integration and pagination
+- Data cleaning and transformation
+- Feature engineering
+- Custom scoring algorithms
+- Analytical visualization
+- BI-ready data modeling
+
+---
+
+## Future Improvements
+
+- Add audio feature extraction when API access allows
+- Time-series trend tracking
+- Artist growth modeling
+- Playlist momentum analysis
+- ML-based trend prediction
+
+---
+
+## Why This Project Exists
+
+This project reflects my interest in combining analytics, data science, and real-world systems thinking.
+
+The focus was not just to analyze data, but to design a process that turns raw API responses into actionable signals.
+
+---
+
+## Author
+
+Rasheed Johnson
+
